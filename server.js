@@ -40,7 +40,7 @@ const server = app.listen(config.port, () => {
 
 const io = socket(server, {
   cors: {
-    origin: "*",
+    origin: "https://main--peaceful-douhua-0c646d.netlify.app/",
     methods: ["GET", "POST"],
   },
 });
